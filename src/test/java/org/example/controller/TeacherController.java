@@ -13,6 +13,4 @@ public class TeacherController {
     public String teacherPanel(Model model) {
         return "teacher";
     }
-
-
 }

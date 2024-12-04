@@ -22,9 +22,6 @@ public class HomeController {
         return "index";
     }
 
-
-
-
     @GetMapping(value = "/sign-in-page")
     public String signinPage() {
         return "signin";
